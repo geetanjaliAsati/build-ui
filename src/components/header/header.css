@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+}
+.container-fluid {
+    border-radius: 20px;   
+}
+
+.col-md-6 {
+    flex: 50%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    
+}
+.highlight {
+    background: linear-gradient(90deg, #96E9FB 0%, #ABECD6 100%);
+
+}
+.row {
+    display: flex;
+    width: 80vw;
+    margin: auto;
+}
+.hero-cover {
+  
+  width: 445px;
+  height: 500px;
+  left: 3.5px;
+  top: 10px;
+
+}
+.hero-img{
+     width: 500px;
+     height: 500px;
+  
+}
+.container-text {
+
+}
+  

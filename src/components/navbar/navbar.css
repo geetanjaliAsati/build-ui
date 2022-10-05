@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: white;
+}
+.topnav a {
+    float: left;
+    /* color: #23A6F0; */
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 16px;
+  }
+
+.topnav-right {
+    float: right;
+}
+.site-title {
+    color: #252B42;
+    font-weight: 700;
+    font-size: larger;
+    letter-spacing: 0.1px;
+    margin-right: 45px;
+    margin-left: 11px;
+}
+
+.topnav-left a{
+    color: #737373;
+    font-weight: 600;
+}
+.topnav-left a:hover {
+    color: #252B42;
+}
+.topnav-right a {
+    color: #23A6F0;
+    font-weight: 600; 
+}
+
